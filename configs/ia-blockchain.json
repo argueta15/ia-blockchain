@@ -1,0 +1,44 @@
+{
+    "core": {
+        "SEED_NODES": [
+            "34.235.113.82:16862",
+            "52.201.203.133:16862"
+        ],
+        "EMISSION_SPEED_FACTOR": 18,
+        "DIFFICULTY_TARGET": 120,
+        "CRYPTONOTE_DISPLAY_DECIMAL_POINT": 12,
+        "MONEY_SUPPLY": "18446744073709551615",
+        "GENESIS_BLOCK_REWARD": "0",
+        "DEFAULT_DUST_THRESHOLD": 1000000,
+        "MINIMUM_FEE": 1000000,
+        "CRYPTONOTE_MINED_MONEY_UNLOCK_WINDOW": 10,
+        "CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE": 100000,
+        "MAX_TRANSACTION_SIZE_LIMIT": 100000,
+        "CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX": 86,
+        "DIFFICULTY_CUT_V1": 60,
+        "DIFFICULTY_CUT_V2": 60,
+        "DIFFICULTY_CUT": 0,
+        "DIFFICULTY_LAG_V1": 15,
+        "DIFFICULTY_LAG_V2": 15,
+        "DIFFICULTY_LAG": 0,
+        "DIFFICULTY_WINDOW_V1": 720,
+        "DIFFICULTY_WINDOW_V2": 720,
+        "DIFFICULTY_WINDOW": 17,
+        "ZAWY_DIFFICULTY_BLOCK_INDEX": 30,
+        "P2P_DEFAULT_PORT": 16862,
+        "RPC_DEFAULT_PORT": 16863,
+        "BYTECOIN_NETWORK": "0557a9d4-3953-8e5d-e1b2-2bbaad5fc65f",
+        "CRYPTONOTE_NAME": "ia-blockchain",
+        "DAEMON_NAME": "ia-blockchaind",
+        "GENESIS_COINBASE_TX_HEX": "010a01ff0001ffffffffffff0f029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd08807121014cea092e52a3c957697c98fb5b09a6218fc6b74279305fa76467a2d07e40ec36",
+        "CHECKPOINTS": "",
+        "MAX_BLOCK_SIZE_INITIAL": 100000
+    },
+    "extensions": [
+        "core/bytecoin.json",
+        "print-genesis-tx.json",
+        "versionized-parameters.json",
+        "zawy-difficulty-algorithm.json"
+    ],
+    "base_coin": "bytecoin-v2"
+}
