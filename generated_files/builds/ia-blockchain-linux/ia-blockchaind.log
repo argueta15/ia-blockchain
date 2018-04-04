@@ -1,0 +1,43 @@
+2018-Apr-03 15:29:09.118211 INFO    [daemon] ia-blockchain v2.1.2.1251 ()
+2018-Apr-03 15:29:09.118366 INFO    [daemon] Module folder: ./ia-blockchaind
+2018-Apr-03 15:29:09.118517 INFO    [RocksDBWrapper] Opening DB in /home/ubuntu/.ia-blockchain/DB
+2018-Apr-03 15:29:09.119066 INFO    [RocksDBWrapper] DB not found in /home/ubuntu/.ia-blockchain/DB. Creating new DB...
+2018-Apr-03 15:29:09.134306 INFO    [daemon] Initializing core...
+2018-Apr-03 15:29:09.136102 INFO    [daemon] Core initialized OK
+2018-Apr-03 15:29:09.136167 INFO    [daemon] Initializing p2p server...
+2018-Apr-03 15:29:09.136261 INFO    [node_server] Generated new peer ID: 8779350382323581828
+2018-Apr-03 15:29:09.136299 INFO    [node_server] Binding on 0.0.0.0:16862
+2018-Apr-03 15:29:09.136356 INFO    [node_server] Net service binded on 0.0.0.0:16862
+2018-Apr-03 15:29:09.136400 INFO    [node_server] Attempting to add IGD port mapping.
+2018-Apr-03 15:29:13.141059 INFO    [node_server] No IGD was found.
+2018-Apr-03 15:29:13.141159 INFO    [daemon] P2p server initialized OK
+2018-Apr-03 15:29:13.141692 INFO    [daemon] Starting core rpc server on address 127.0.0.1:16863
+2018-Apr-03 15:29:13.141917 INFO    [daemon] Core rpc server started ok
+2018-Apr-03 15:29:13.141968 INFO    [daemon] Starting p2p net loop...
+2018-Apr-03 15:29:13.141998 INFO    [node_server] Starting node_server
+2018-Apr-03 15:29:13.143974 INFO    [protocol] 
+2018-Apr-03 15:29:13.143974 INFO    [protocol] **********************************************************************
+2018-Apr-03 15:29:13.143974 INFO    [protocol] You are now synchronized with the network. You may now start simplewallet.
+2018-Apr-03 15:29:13.143974 INFO    [protocol] 
+2018-Apr-03 15:29:13.143974 INFO    [protocol] Please note, that the blockchain will be saved only after you quit the daemon with "exit" command or if you use "save" command.
+2018-Apr-03 15:29:13.143974 INFO    [protocol] Otherwise, you will possibly need to synchronize the blockchain again.
+2018-Apr-03 15:29:13.143974 INFO    [protocol] 
+2018-Apr-03 15:29:13.143974 INFO    [protocol] Use "help" command to see the list of available commands.
+2018-Apr-03 15:29:13.143974 INFO    [protocol] **********************************************************************
+2018-Apr-03 16:01:31.435280 INFO    [daemon] ia-blockchain v2.1.2.1251 ()
+2018-Apr-03 16:01:31.435426 INFO    [daemon] Module folder: ./ia-blockchaind
+2018-Apr-03 16:01:31.435563 INFO    [RocksDBWrapper] Opening DB in /home/ubuntu/.ia-blockchain/DB
+2018-Apr-03 16:01:31.436104 ERROR   [RocksDBWrapper] DB Error. DB can't be opened in /home/ubuntu/.ia-blockchain/DB. Error: IO error: lock /home/ubuntu/.ia-blockchain/DB/LOCK: Resource temporarily unavailable
+2018-Apr-03 16:01:31.436234 ERROR   [daemon] Exception: IO error
+2018-Apr-03 17:50:01.491669 INFO    [protocol] [54.210.150.120:60556 INC] Tx verification failed
+2018-Apr-03 17:50:01.505114 INFO    [protocol] [54.210.150.120:16862 OUT] Tx verification failed
+2018-Apr-03 18:20:40.669050 WARNING [node_server] [177.245.232.11:62608 INC] Exception in connectionHandler: Levin signature mismatch
+2018-Apr-03 18:20:40.832601 WARNING [node_server] [177.245.232.11:62607 INC] Exception in connectionHandler: Levin signature mismatch
+2018-Apr-03 18:20:40.890572 WARNING [node_server] [177.245.232.11:62609 INC] Exception in connectionHandler: Levin signature mismatch
+2018-Apr-03 18:20:41.005969 WARNING [node_server] [177.245.232.11:62610 INC] Exception in connectionHandler: Levin signature mismatch
+2018-Apr-03 18:20:51.771639 WARNING [node_server] [177.245.232.11:62645 INC] Exception in connectionHandler: Levin signature mismatch
+2018-Apr-03 18:20:51.911701 WARNING [node_server] [177.245.232.11:62646 INC] Exception in connectionHandler: Levin signature mismatch
+2018-Apr-03 18:20:51.969545 WARNING [node_server] [177.245.232.11:62647 INC] Exception in connectionHandler: Levin signature mismatch
+2018-Apr-03 18:52:21.740191 WARNING [node_server] [177.245.232.10:57653 INC] Exception in connectionHandler: Levin signature mismatch
+2018-Apr-03 19:55:00.834006 INFO    [Core] Block 07bce1abf95f7bafd1602c8f4dfe654824f4c2d069b4196bbcaef144b9c37cbe added to main chain. Index: 100
+2018-Apr-03 23:14:16.961120 INFO    [Core] Block 50d0cef68dec26f67524935f2a9e31452e171810aba4d0d3b5c377b0c1df036e added to main chain. Index: 200

@@ -1,0 +1,18 @@
+2018-Apr-03 15:29:09.118211 INFO    ia-blockchain v2.1.2.1251 ()
+2018-Apr-03 15:29:09.118366 INFO    Module folder: ./ia-blockchaind
+2018-Apr-03 15:29:09.118517 INFO    Opening DB in /home/ubuntu/.ia-blockchain/DB
+2018-Apr-03 15:29:09.119066 INFO    DB not found in /home/ubuntu/.ia-blockchain/DB. Creating new DB...
+2018-Apr-03 15:29:09.134306 INFO    Initializing core...
+2018-Apr-03 15:29:09.136102 INFO    Core initialized OK
+2018-Apr-03 15:29:09.136167 INFO    Initializing p2p server...
+2018-Apr-03 15:29:09.136261 INFO    Generated new peer ID: 8779350382323581828
+2018-Apr-03 15:29:09.136299 INFO    Binding on 0.0.0.0:16862
+2018-Apr-03 15:29:09.136356 INFO    Net service binded on 0.0.0.0:16862
+2018-Apr-03 15:29:09.136400 INFO    Attempting to add IGD port mapping.
+2018-Apr-03 15:29:13.141059 INFO    No IGD was found.
+2018-Apr-03 15:29:13.141159 INFO    P2p server initialized OK
+2018-Apr-03 16:01:31.435280 INFO    ia-blockchain v2.1.2.1251 ()
+2018-Apr-03 16:01:31.435426 INFO    Module folder: ./ia-blockchaind
+2018-Apr-03 16:01:31.435563 INFO    Opening DB in /home/ubuntu/.ia-blockchain/DB
+2018-Apr-03 16:01:31.436104 ERROR   DB Error. DB can't be opened in /home/ubuntu/.ia-blockchain/DB. Error: IO error: lock /home/ubuntu/.ia-blockchain/DB/LOCK: Resource temporarily unavailable
+2018-Apr-03 16:01:31.436234 ERROR   Exception: IO error
